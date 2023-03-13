@@ -76,9 +76,9 @@ const pintarTareas = () => {
         e.stopPropagation()
     } */
 
-
+/* 
 const btnAccion = e =>{
-    /* console.log(e.target.classList.contains('fa-circle-check')) */
+    console.log(e.target.classList.contains('fa-circle-check'))
     if(e.target.classList.contains('fa-circle-check')){
         console.log(e.target.dataset.id);
         tareas[e.target.dataset.id].estado = true;
@@ -95,3 +95,4 @@ const btnAccion = e =>{
     e.stopPropagation()
 }
 
+ */
