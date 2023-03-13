@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #025460;
+}
+
+body div.micalculadora{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin: auto;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+div input[type='button'], button{
+    width: 40px;
+    height: 40px;
+    margin: 3px auto;
+
+}
+
+div input[type ='text']{
+    height: 40px;
+    width: 200px;
+    background-color: #d9d8d8ef;
+    color: black;
+    padding: 12px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+div.result input, div.result button{
+    height: 40px;
+    width: 85px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.borrar{
+    background-color: coral;
+    color: white;
+    border: 2PX solid #013840;
+}
+
+

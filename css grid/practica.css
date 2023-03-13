@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #efefefef;
+}
+
+.container{
+    width: 700px;
+    max-width: 100%;
+    margin: 100px auto;
+    margin-top: 2em;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 2fr;
+    gap: 1em;
+}
+
+.son{
+    background-color: blue;
+    padding: 22px;
+    border: #efefefef 1px solid;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.son:hover{
+    color: white;
+}
+
+.parte-1{
+    background-color: blueviolet;
+}
+
+.parte-2{
+    background-color: aquamarine;
+}
+
+.parte-3{
+    background-color: crimson;
+}
+
+.parte-4{
+    background-color: blanchedalmond;
+    grid-column: 1/4;
+}
+
+.parte-5{
+    background-color: cadetblue;
+    grid-column: 1/3;
+}
+
+.parte-6{
+    background-color: brown;
+}
+
+.parte-7{
+    background-color: chocolate;
+}
+
+.parte-8{
+    background-color: cornflowerblue;
+    grid-column: 2/4;
+}
+
+.parte-9{
+    background-color: darkgoldenrod;
+    grid-column: 1/4;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: darkkhaki;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+    .parte-3{
+        grid-column: 1/2;
+    }
+
+    .parte-4{
+        grid-column: 2/3;
+    }
+
+    .parte-5{
+        grid-column: 1/3;
+    }
+
+    .parte-6{
+        grid-column: 1/2;
+    }
+
+    .parte-8{
+        grid-column: 1/3;
+    }
+
+    .parte-9{
+        grid-column: 1/3;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    body{
+        background-color: floralwhite;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .parte-1{
+        grid-column: 1/3;
+    }
+
+    .parte-2{
+        grid-column: 1/3;
+    }
+
+    .parte-3, .parte-4, .parte-6, .parte-7{
+        grid-column: 1/3;
+    }
+
+}

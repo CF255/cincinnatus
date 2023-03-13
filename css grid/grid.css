@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 22px;
+    line-height: 2;
+    color: white;
+    background-color: #000;
+}
+
+.container{
+    max-width: 960px;
+    margin: 100px auto;
+    outline: 6px solid yellow;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.parte{
+    background-color: tomato;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 22px;
+    border: bisque 1px solid;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.parte:hover{
+    color: black;
+}
+
+.parte-1{
+    background-color: aqua;
+   
+    
+}
+
+.parte-2{
+    background-color: bisque;
+
+}
+
+.parte-3{
+    background-color: aquamarine;
+    
+}
+.parte-4{
+    background-color:#ce1b1b;
+}
+.parte-5{
+    background-color: blue;
+    
+   
+}
+.parte-6{
+    background-color: rgb(98, 255, 0);
+   
+}
+.parte-7{
+    background-color: rgb(255, 0, 187);
+   
+}
+.parte-8{
+    background-color: rgb(255, 225, 0);
+
+}
+.parte-9{
+    background-color: rgb(255, 85, 0);
+}
