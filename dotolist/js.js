@@ -47,3 +47,5 @@ const pintarTareas = () => {
     }) 
     listatarea.appendChild(fragment);  
 }
+
+CONST
