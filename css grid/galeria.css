@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #efefefef;
+}
+
+.container{
+    width: 650px;
+    height: 650px;
+    background-color: cadetblue;
+    margin: 100px auto;
+    margin-top: 2rem;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+    grid-template-areas: 
+    "foto-1 foto-2 foto-2 foto-3"
+    "foto-1 foto-4 foto-4 foto-4"
+    "foto-5 foto-6 foto-7 foto-7"
+    "foto-8 foto-6 foto-9 foto-9"
+    ;
+}
+
+
+
+.foto{
+    background-color: red;
+}
+
+.foto-1{
+    grid-area: foto-1;
+    background-image: url(img/uno.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-2{
+    grid-area: foto-2;
+    background-image: url(img/dos.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-3{
+    grid-area: foto-3;
+    background-image: url(img/tres.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-4{
+    grid-area: foto-4;
+    background-image: url(img/cuatro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-5{
+    grid-area: foto-5;
+    background-image: url(img/cinco.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-6{
+    grid-area: foto-6;
+    background-image: url(img/seis.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-7{
+grid-area: foto-7;
+background-image: url(img/siete.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-8{
+    grid-area: foto-8;
+    background-image: url(img/ocho.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.foto-9{
+    grid-area: foto-9;
+    background-image: url(img/nueve.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:650px){
+
+    body{
+        background-color: cornflowerblue;
+    }
+    .container{
+        width: auto;
+        background-color: cadetblue;
+        grid
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2fr 2fr 1fr 2fr 2fr 1fr 1fr 2fr;
+        grid-template-areas: 
+
+        
+        "foto-1 foto-2"
+        "foto-1 foto-4"
+        "foto-1 foto-3"
+        "foto-5 foto-3"
+        "foto-7 foto-3"
+        "foto-7 foto-8"
+        "foto-6 foto-8"
+        "foto-6 foto-9"
+
+        ;
+    }
+}
