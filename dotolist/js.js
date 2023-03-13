@@ -66,4 +66,33 @@ const pintarTareas = () => {
         fragment.appendChild(clone);
     }) 
     listatarea.appendChild(fragment);  
+}       
+
+ /*    const btnAccion = e =>{
+        console.log(e.target.classList.contains('fa-circle-check'))
+        if(e.target.classList.contains('fa-circle-check')){
+            
+        }
+        e.stopPropagation()
+    } */
+
+/* 
+const btnAccion = e =>{
+    console.log(e.target.classList.contains('fa-circle-check'))
+    if(e.target.classList.contains('fa-circle-check')){
+        console.log(e.target.dataset.id);
+        tareas[e.target.dataset.id].estado = true;
+        pintarTareas();
+        console.log(tareas)
+    }
+
+    if(e.target.classList.contains('fa-circle-minus')){
+        delete tareas[e.target.dataset.id];
+        pintarTareas();
+        console.log(tareas)
+    }
+
+    e.stopPropagation()
 }
+
+ */
